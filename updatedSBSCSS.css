@@ -1,0 +1,228 @@
+.standard-container {
+    margin: 0 auto; /* Centers content with equal left and right margins */
+    padding: 20px; /* Consistent padding */
+    max-width: 1200px; /* Adjust as needed */
+    width: 100%; /* Responsive width */
+}
+
+.home-standard-container {
+    margin: 0 auto; /* Centers content with equal left and right margins */
+    padding: 20px; /* Consistent padding */
+    max-width: 1200px; /* Adjust as needed */
+    width: 100%; /* Responsive width */
+    height: 96vh;
+}
+
+/* Title styles */
+.title {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Gill Sans MT', sans-serif;
+    color: rgb(10, 66, 45);
+    text-align: center;
+}
+
+.background-image {
+    position: absolute; /* Full viewport coverage */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('officiallogo.png');
+    background-size: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#content {
+    margin-top: 100vh;
+}
+
+/* Paragraph styles */
+p {
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 16px;
+}
+
+/* Email link styles */
+.emailLink {
+    font-family: 'Gill Sans MT', sans-serif;
+    color: aliceblue;
+}
+
+/* Header element styles */
+h1, h2, h3, h4 {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+.homeH2, .homeH3, .benefitSloganH3 {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+.notHome {
+    position: fixed; /* or absolute, depending on your layout */
+    top: 5px;
+    left: 20px;
+    padding: 10px; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Home Page specific styles */
+.homepagebody, .benefitsbody {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(alaskaocean.jpg);
+    text-align: center;
+}
+
+.top-left-image {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.home-left-image {
+    display: block; /* To make it a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+    /* Adjust width and height as necessary */
+    width: 200px;
+    height: 200px;
+}
+
+.sloganBox {
+    border: 1px solid #fcfbfb; /* Gives a border to the box */
+    position:relative;
+    padding: 10px; /* Padding inside the box */
+    margin: 10px; /* Spacing between boxes */
+    width: 70%; /* Width of each box */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    box-sizing:content-box; /* Includes padding and border in the width */
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    background-color: rgba(78, 74, 74, 0.644);
+}
+
+.formBox{
+    border: 1px solid #fcfbfb; /* Gives a border to the box */
+    position:relative;
+    padding: 10px; /* Padding inside the box */
+    margin: 10px; /* Spacing between boxes */
+    width: 70%; /* Width of each box */
+    height:114%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    box-sizing:content-box; /* Includes padding and border in the width */
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    background-color: rgba(78, 74, 74, 0.644);
+}
+
+.formPageToTop {
+    z-index: 1000;
+    position: relative;
+    margin-top: 50vh;
+}
+
+.sloganBoxWide {
+    border: 1px solid #fcfbfb; /* Gives a border to the box */
+    position:relative;
+    padding: 10px; /* Padding inside the box */
+    margin: 10px; /* Spacing between boxes */
+    width: 90%; /* Width of each box */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    box-sizing:content-box; /* Includes padding and border in the width */
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    background-color: rgba(78, 74, 74, 0.644);
+}
+
+/*Benefits Page Styling*/
+.box {
+    border: 1px solid #fcfbfb; /* Gives a border to the box */
+    padding: 20px; /* Padding inside the box */
+    margin: 10px; /* Spacing between boxes */
+    width: 30%; /* Width of each box */
+    box-sizing: border-box; /* Includes padding and border in the width */
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    background-color: rgba(78, 74, 74, 0.644);
+}
+
+/* Flex container to hold the boxes */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows boxes to wrap to the next line */
+    justify-content: center; /* Even spacing between the boxes */
+}
+
+.nav-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the content horizontally */
+    width: 100%; /* Full width */
+}
+/* Navigation bar styles */
+#nav {
+    width: 80%; /* Set the width to 80% */
+    margin: 0 auto; /* Center the navigation bar */
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Space out the nav items */
+    align-items: center;
+    /* ... other styles ... */
+    box-sizing: border-box;
+}
+
+#nav li {
+    text-align: center;
+    float: none;
+    color: azure;
+    background-color: rgb(10, 66, 45);
+    width: 100%;
+    height: 30px;
+    flex-grow: 1;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Gill Sans MT', sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#nav li a:hover {
+    color: rgb(202, 202, 202);
+}
+
+.copyrightstyle {
+    color:white;
+    text-align: center;
+    }
+
+ hr {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+     border-top: 3px white;
+    border-style:solid;
+    align-items: center;
+    }
