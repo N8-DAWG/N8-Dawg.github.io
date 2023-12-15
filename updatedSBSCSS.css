@@ -218,6 +218,10 @@ h1, h2, h3, h4 {
     text-align: center;
     }
 
+.imageCredit {
+    color:gray;
+    text-align: center;
+
  hr {
     width: 80%;
     margin: auto;
