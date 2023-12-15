@@ -219,8 +219,10 @@ h1, h2, h3, h4 {
     }
 
 .imageCredit {
-    color:gray;
+    color:whitesmoke;
     text-align: center;
+    font-size: small;
+}
 
  hr {
     width: 80%;
